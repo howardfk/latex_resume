@@ -68,10 +68,10 @@
 \newfontfamily{\titlefont}{Gill Sans Light}
 \newfontfamily{\SectionFont}{Gill Sans Light}%Helvetica Neue ULTRALIGHT}
 \newfontfamily{\numberstyle}{Georgia}
-\newfontfamily{\worklistfont}{Big Caslon}
-\newfontfamily{\SchoolFont}{Big Caslon}
-\newfontfamily{\WorkFont}{Big Caslon}
-\newfontfamily{\MainFont}{Big Caslon}
+\newfontfamily{\worklistfont}{Georgia}
+\newfontfamily{\SchoolFont}{Georgia}
+\newfontfamily{\WorkFont}{Georgia}
+\newfontfamily{\MainFont}{Georgia}
 
 \newcommand{\SectionStyle}{\small\addfontfeature{LetterSpace=10.0}}
 \newcommand{\TitlenameStyle}{\Huge}
@@ -151,10 +151,10 @@
 \titlespacing*{\section}{0pt}{0.2em}{1.5em}
 
 \newenvironment{school}[7]{
-	\SchoolFont \SchoolNameStyle #1 \hfill{} \normalsize \numberstyle #2 \\* \SchoolDeatleStyle #3 \\* #4 #5 #6 #7}{\vspace*{1.0 em}}
+	\SchoolFont \SchoolNameStyle #1 \hfill{} \normalsize \numberstyle #2 \\* \SchoolDeatleStyle #3 \\* #4 #5 #6 #7}{\vspace*{0.8 em}}
 
 \newenvironment{work}[3]{
 	\WorkFont \WorkNameStyle #1 \hfill{} \normalsize\numberstyle #2 \\* \worklistfont\WorkDeatleStyle 
-	\begin{list}{-}{#3 \vspace*{0.40em}}%\settowidth{\rightmargin}{#2}}
+	\begin{list}{-}{#3 \vspace*{0.34em}}%\settowidth{\rightmargin}{#2}}
 	}
 	{\end{list}\vspace*{1.0 em}}
